@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flow Date</title>
+    <style>
+        body { 
+            background: #000; 
+            color: #FFF; 
+            font-size: 20vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        // JavaScript calculates and displays the date when the page loads
+        document.write(new Date().toLocaleDateString('en-US', {month:'short', day:'numeric'}));
+    </script>
+</body>
+</html>
